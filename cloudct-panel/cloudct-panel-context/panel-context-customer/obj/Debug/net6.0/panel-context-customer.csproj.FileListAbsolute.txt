@@ -1,0 +1,12 @@
+C:\repository\cloudct-panel\cloudct-panel-context\panel-context-customer\bin\Debug\net6.0\panel-context-customer.deps.json
+C:\repository\cloudct-panel\cloudct-panel-context\panel-context-customer\bin\Debug\net6.0\panel-context-customer.dll
+C:\repository\cloudct-panel\cloudct-panel-context\panel-context-customer\bin\Debug\net6.0\panel-context-customer.pdb
+C:\repository\cloudct-panel\cloudct-panel-context\panel-context-customer\obj\Debug\net6.0\panel-context-customer.csproj.AssemblyReference.cache
+C:\repository\cloudct-panel\cloudct-panel-context\panel-context-customer\obj\Debug\net6.0\panel-context-customer.GeneratedMSBuildEditorConfig.editorconfig
+C:\repository\cloudct-panel\cloudct-panel-context\panel-context-customer\obj\Debug\net6.0\panel-context-customer.AssemblyInfoInputs.cache
+C:\repository\cloudct-panel\cloudct-panel-context\panel-context-customer\obj\Debug\net6.0\panel-context-customer.AssemblyInfo.cs
+C:\repository\cloudct-panel\cloudct-panel-context\panel-context-customer\obj\Debug\net6.0\panel-context-customer.csproj.CoreCompileInputs.cache
+C:\repository\cloudct-panel\cloudct-panel-context\panel-context-customer\obj\Debug\net6.0\panel-context-customer.dll
+C:\repository\cloudct-panel\cloudct-panel-context\panel-context-customer\obj\Debug\net6.0\refint\panel-context-customer.dll
+C:\repository\cloudct-panel\cloudct-panel-context\panel-context-customer\obj\Debug\net6.0\panel-context-customer.pdb
+C:\repository\cloudct-panel\cloudct-panel-context\panel-context-customer\obj\Debug\net6.0\ref\panel-context-customer.dll

@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "cloudct-panel-services/panel-services-webapi"
+		},
+		{
+			"path": "cloudct-panel-services/panel-services-core"
+		},
+		{
+			"path": "cloudct-panel-context/panel-context-customer"
+		},
+		{
+			"path": "cloudct-panel-context/panel-context-main"
+		}
+	],
+	"settings": {}
+}

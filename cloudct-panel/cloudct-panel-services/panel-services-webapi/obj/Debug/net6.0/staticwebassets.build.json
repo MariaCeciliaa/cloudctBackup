@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "ZPWbuUOjPdq9fJxMp9N14decqGYTM/lYlUsf2gUiw5o=",
+  "Source": "panel-services-webapi",
+  "BasePath": "_content/panel-services-webapi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,17 @@
+C:\repository\cloudct-panel\cloudct-panel-services\panel-services-core\bin\Debug\net6.0\panel-services-core.deps.json
+C:\repository\cloudct-panel\cloudct-panel-services\panel-services-core\bin\Debug\net6.0\panel-services-core.dll
+C:\repository\cloudct-panel\cloudct-panel-services\panel-services-core\bin\Debug\net6.0\panel-services-core.pdb
+C:\repository\cloudct-panel\cloudct-panel-services\panel-services-core\bin\Debug\net6.0\panel-context-customer.dll
+C:\repository\cloudct-panel\cloudct-panel-services\panel-services-core\bin\Debug\net6.0\panel-context-main.dll
+C:\repository\cloudct-panel\cloudct-panel-services\panel-services-core\bin\Debug\net6.0\panel-context-customer.pdb
+C:\repository\cloudct-panel\cloudct-panel-services\panel-services-core\bin\Debug\net6.0\panel-context-main.pdb
+C:\repository\cloudct-panel\cloudct-panel-services\panel-services-core\obj\Debug\net6.0\panel-services-core.csproj.AssemblyReference.cache
+C:\repository\cloudct-panel\cloudct-panel-services\panel-services-core\obj\Debug\net6.0\panel-services-core.GeneratedMSBuildEditorConfig.editorconfig
+C:\repository\cloudct-panel\cloudct-panel-services\panel-services-core\obj\Debug\net6.0\panel-services-core.AssemblyInfoInputs.cache
+C:\repository\cloudct-panel\cloudct-panel-services\panel-services-core\obj\Debug\net6.0\panel-services-core.AssemblyInfo.cs
+C:\repository\cloudct-panel\cloudct-panel-services\panel-services-core\obj\Debug\net6.0\panel-services-core.csproj.CoreCompileInputs.cache
+C:\repository\cloudct-panel\cloudct-panel-services\panel-services-core\obj\Debug\net6.0\panel-services-core.csproj.CopyComplete
+C:\repository\cloudct-panel\cloudct-panel-services\panel-services-core\obj\Debug\net6.0\panel-services-core.dll
+C:\repository\cloudct-panel\cloudct-panel-services\panel-services-core\obj\Debug\net6.0\refint\panel-services-core.dll
+C:\repository\cloudct-panel\cloudct-panel-services\panel-services-core\obj\Debug\net6.0\panel-services-core.pdb
+C:\repository\cloudct-panel\cloudct-panel-services\panel-services-core\obj\Debug\net6.0\ref\panel-services-core.dll

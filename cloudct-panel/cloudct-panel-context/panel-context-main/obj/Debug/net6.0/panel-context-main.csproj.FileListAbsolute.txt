@@ -1,0 +1,12 @@
+C:\repository\cloudct-panel\cloudct-panel-context\panel-context-main\bin\Debug\net6.0\panel-context-main.deps.json
+C:\repository\cloudct-panel\cloudct-panel-context\panel-context-main\bin\Debug\net6.0\panel-context-main.dll
+C:\repository\cloudct-panel\cloudct-panel-context\panel-context-main\bin\Debug\net6.0\panel-context-main.pdb
+C:\repository\cloudct-panel\cloudct-panel-context\panel-context-main\obj\Debug\net6.0\panel-context-main.csproj.AssemblyReference.cache
+C:\repository\cloudct-panel\cloudct-panel-context\panel-context-main\obj\Debug\net6.0\panel-context-main.GeneratedMSBuildEditorConfig.editorconfig
+C:\repository\cloudct-panel\cloudct-panel-context\panel-context-main\obj\Debug\net6.0\panel-context-main.AssemblyInfoInputs.cache
+C:\repository\cloudct-panel\cloudct-panel-context\panel-context-main\obj\Debug\net6.0\panel-context-main.AssemblyInfo.cs
+C:\repository\cloudct-panel\cloudct-panel-context\panel-context-main\obj\Debug\net6.0\panel-context-main.csproj.CoreCompileInputs.cache
+C:\repository\cloudct-panel\cloudct-panel-context\panel-context-main\obj\Debug\net6.0\panel-context-main.dll
+C:\repository\cloudct-panel\cloudct-panel-context\panel-context-main\obj\Debug\net6.0\refint\panel-context-main.dll
+C:\repository\cloudct-panel\cloudct-panel-context\panel-context-main\obj\Debug\net6.0\panel-context-main.pdb
+C:\repository\cloudct-panel\cloudct-panel-context\panel-context-main\obj\Debug\net6.0\ref\panel-context-main.dll
