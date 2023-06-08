@@ -19,7 +19,6 @@ onMounted(async () => {
   await fetchData();
 });
 
-
 function filtrar() {
   const termo = document.getElementById('pesquisa').value.toUpperCase();
   const resultadosFiltrados = facts.value.filter(fact => fact.names.toUpperCase().indexOf(termo) !== -1);
@@ -117,7 +116,6 @@ function filtrar() {
       <div class="inner-div text-center">
         <v-table fixed-header height="auto">
 
-            
           <div class="d-flex justify-between mb-1">
             <div class="text-subtitle-h1 mt-7 mb-1 ml-5 text-left pa-1 truncate">
               Nome
@@ -335,8 +333,8 @@ function filtrar() {
     height: calc(100% - 4%); /* altura da tela - altura do menu do topo */
     padding: 1rem;
     border-radius: 10px;
-    max-height: 500px; /* Defina uma altura máxima */
-    overflow-y: auto; /* Habilita a rolagem vertical */
+    max-height: 500px; 
+    overflow-y: auto;  /* Habilita a rolagem vertical */
   }
   .upper-div {
     position: relative;
