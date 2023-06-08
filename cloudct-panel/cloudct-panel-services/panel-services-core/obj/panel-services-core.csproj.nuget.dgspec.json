@@ -10,11 +10,11 @@
         "projectUniqueName": "C:\\repository\\cloudct-panel\\cloudct-panel-context\\panel-context-customer\\panel-context-customer.csproj",
         "projectName": "panel-context-customer",
         "projectPath": "C:\\repository\\cloudct-panel\\cloudct-panel-context\\panel-context-customer\\panel-context-customer.csproj",
-        "packagesPath": "C:\\Users\\maria\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\Cecilia Acadêmico\\.nuget\\packages\\",
         "outputPath": "C:\\repository\\cloudct-panel\\cloudct-panel-context\\panel-context-customer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\maria\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Cecilia Acadêmico\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -70,11 +70,11 @@
         "projectUniqueName": "C:\\repository\\cloudct-panel\\cloudct-panel-context\\panel-context-main\\panel-context-main.csproj",
         "projectName": "panel-context-main",
         "projectPath": "C:\\repository\\cloudct-panel\\cloudct-panel-context\\panel-context-main\\panel-context-main.csproj",
-        "packagesPath": "C:\\Users\\maria\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\Cecilia Acadêmico\\.nuget\\packages\\",
         "outputPath": "C:\\repository\\cloudct-panel\\cloudct-panel-context\\panel-context-main\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\maria\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Cecilia Acadêmico\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -124,11 +124,11 @@
         "projectUniqueName": "C:\\repository\\cloudct-panel\\cloudct-panel-services\\panel-services-core\\panel-services-core.csproj",
         "projectName": "panel-services-core",
         "projectPath": "C:\\repository\\cloudct-panel\\cloudct-panel-services\\panel-services-core\\panel-services-core.csproj",
-        "packagesPath": "C:\\Users\\maria\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\Cecilia Acadêmico\\.nuget\\packages\\",
         "outputPath": "C:\\repository\\cloudct-panel\\cloudct-panel-services\\panel-services-core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\maria\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Cecilia Acadêmico\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

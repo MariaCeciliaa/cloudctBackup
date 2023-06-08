@@ -347,7 +347,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\maria\\.nuget\\packages\\": {}
+    "C:\\Users\\Cecilia Acadêmico\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -355,11 +355,11 @@
       "projectUniqueName": "C:\\repository\\cloudct-panel\\cloudct-panel-services\\panel-services-webapi\\panel-services-webapi.csproj",
       "projectName": "panel-services-webapi",
       "projectPath": "C:\\repository\\cloudct-panel\\cloudct-panel-services\\panel-services-webapi\\panel-services-webapi.csproj",
-      "packagesPath": "C:\\Users\\maria\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\Cecilia Acadêmico\\.nuget\\packages\\",
       "outputPath": "C:\\repository\\cloudct-panel\\cloudct-panel-services\\panel-services-webapi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\maria\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Cecilia Acadêmico\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

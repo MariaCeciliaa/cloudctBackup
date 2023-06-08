@@ -5,6 +5,7 @@ const facts = ref([]);
 const filteredFacts = ref([]);
 const dialogVisible = ref(false);
 
+
 const fetchData = async () => {
   const url = 'https://localhost:7156/service';
   const response = await fetch(url);
@@ -122,26 +123,57 @@ function filtrar() {
               Nome
             </div>
 
-            <v-card-actions class="ml-auto mr-2">
+            <v-card-actions class="ml-auto mr-3">
               <v-text-field label="Pesquisar..." 
                             variant="underlined"
-                            id="pesquisa" @input="filtrar()"></v-text-field>
-              <v-btn color="black" 
-                    variant="outlined"
-                    density="comfortable" 
-                    class="ml-2" @click="filtrar()">Filtrar</v-btn>    
+                            id="pesquisa" @input="filtrar()"></v-text-field> 
             </v-card-actions>
-
           </div>
 
           <div class="text-subtitle-h1 mt-4 mb-1 ml-5 text-left pa-1 truncate"  v-if="filteredFacts.length === 0" 
             style="display: flex; justify-content: center; align-items: center; height: 18rem; font-size: 1.3rem;">
-            Nenhum resultado encontrado.
+            Nenhum resultado encontrado...
           </div>
                 
 
-          <v-expansion-panels variant="popout" class="my-4 ">
-            <v-expansion-panel v-for="(fact) in filteredFacts" :key="fact.names" :title="fact.names" id="lista">
+          <v-expansion-panels variant="popout" class="my-4">
+            <v-expansion-panel 
+              v-for="(fact) in filteredFacts" 
+              :key="fact.names" 
+              :title="fact.names" 
+              id="lista"
+              >             
+              <template v-slot:title>
+                <v-row align="center">
+                  <v-col cols="auto"> 
+                    <v-icon>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-activity">
+                        <path d="M12.89 1.45l8 4A2 2 0 0 1 22 7.24v9.53a2 2 0 0 1-1.11 1.79l-8 4a2 2 0 0 1-1.79 0l-8-4a2 2 0 0 1-1.1-1.8V7.24a2 2 0 0 1 1.11-1.79l8-4a2 2 0 0 1 1.78 0z"></path>
+                        <polyline points="2.32 6.16 12 11 21.68 6.16"></polyline>
+                        <line x1="12" y1="22.76" x2="12" y2="11"></line>
+                      </svg>
+                    </v-icon> 
+                  </v-col>
+
+                  <v-col class="mt-1">
+                    {{ fact.names }}
+                  </v-col> 
+
+                  <v-btn variant="text"
+                         class="ma-2 ml-auto d-flex justify-end mr-0"
+                         @click="dialogVisible = true">
+                      Editar
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 32" fill="none" stroke="currentColor" 
+                         stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-activity ml-2 mt-2">
+                      <polygon points="14 2 18 6 7 17 3 17 3 13 14 2"></polygon>
+                      <line x1="3" y1="22" x2="21" y2="22"></line>
+                    </svg>
+                  </v-btn>
+                  
+                </v-row>
+              </template>
+
+
               <v-expansion-panel-text>
                   <div class="text-h10 pa-3 text-left">
                     <ul>
@@ -166,21 +198,12 @@ function filtrar() {
                       <li><strong>Porta do server IPV6:</strong> {{ fact.serverPortIPV6 }}</li>
                       <v-divider></v-divider>
                       <li><strong>Porta do container IPV6:</strong> {{ fact.containerPortIPV6 }}</li>
-                      <v-divider></v-divider>
                     </ul>
                   </div>
+                </v-expansion-panel-text>
         
                 <td> 
                   <v-dialog v-model="dialogVisible" fullscreen transition="dialog-bottom-transition"> 
-                    
-                    <template v-slot:activator="{ on }">
-                      <v-btn v-bind="on" 
-                             variant="outlined"
-                             class="ml-auto ma-2 justify-end text-right"
-                             @click="dialogVisible = true">
-                        Editar
-                      </v-btn>
-                    </template>
 
                     <template v-slot:default="{ isActive }" :class="{ 'model': isActive }">
                       <v-card value="rounded-xl" :class="{ 'model': isActive }">
@@ -195,7 +218,6 @@ function filtrar() {
                         <v-card-text>
                           <td>
                             <v-dialog v-model="dialogVisible" fullscreen transition="dialog-bottom-transition">
-
                               <template v-slot:default="{ isActive }">
                                 <v-card value="rounded-xl">
                                   <v-toolbar class="custom-title text-h6" color="#0000CD">
@@ -235,18 +257,17 @@ function filtrar() {
                           </td> 
                         </v-card-text>
 
-                        <v-card-actions class="justify-end">
-                          <v-btn variant="text" @click="dialogVisible = false"> 
-                            Fechar
-                          </v-btn>
-                        </v-card-actions>
+                      <v-card-actions class="justify-end">
+                        <v-btn variant="text" @click="dialogVisible = false"> 
+                          Fechar
+                        </v-btn>
+                      </v-card-actions>
 
-                      </v-card>
-                    </template>
-                  </v-dialog>
-                </td>
-
-              </v-expansion-panel-text>
+                    </v-card>
+                  </template>
+                </v-dialog>
+              </td>
+                
             </v-expansion-panel>
           </v-expansion-panels>
         </v-table>
