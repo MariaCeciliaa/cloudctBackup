@@ -27,87 +27,6 @@ function filtrar() {
 
 </script> 
 
-
-<!-- <template>
-  <div class="overlay">
-    <div class="upper-div">
-      <h3><strong class="highlight">Visualizar Containers</strong></h3>
-        <div class="inner-div text-center">
-     
-        <v-table fixed-header height="23rem">
-          <thead>
-            <tr>
-              <th class="text-left mr-5 font-medium truncate">
-                Nome
-              </th>
-            </tr>
-          </thead>
-
-        <tbody>
-          <tr v-for="(fact, index) in facts" :key="fact.names">
-            <td>
-              <v-dialog
-                :model-value="activeIndex === index"
-                @update:model-value="activeIndex = $event ? index : null"
-                transition="dialog-top-transition"
-                width="auto"
-              >
-                <template v-slot:activator="{ on }">
-                  <v-btn v-bind="on" variant="plain" @click="activeIndex = index">
-                    {{ fact.names }}
-                  </v-btn>
-                </template>
-
-                <template v-slot:default="{ isActive }" :class="model">
-                  <v-card 
-                  value="rounded-xl"
-                  :class="model"
-                  >
-                    <v-toolbar 
-                    :rounded="true" 
-                    class="custom-title" 
-                    color="#0000CD"
-                    >
-                      <span>{{ fact.names }}</span>
-                    </v-toolbar>
-
-                    <v-card-text>
-                      <div class="text-h6 pa-12 modern-style">
-                        <ul>
-                          <li><strong>Id:</strong> {{ fact.id }}</li>
-                          <li><strong>Command:</strong> {{ fact.command }}</li>
-                          <li><strong>Imagem:</strong> {{ fact.image }}</li>
-                          <li><strong>Criado em:</strong> {{ fact.created }}</li>
-                          <li><strong>Status:</strong> {{ fact.status }}</li>
-                          <li><strong>Origem IPV4:</strong> {{ fact.originIPV4 }}</li>
-                          <li><strong>Porta do server IPV4:</strong> {{ fact.serverPortIPV4 }}</li>
-                          <li><strong>Porta do container IPV4:</strong> {{ fact.containerPortIPV4 }}</li>
-                          <li><strong>Origem IPV6:</strong> {{ fact.originIPV6 }}</li>
-                          <li><strong>Porta do server IPV6:</strong> {{ fact.serverPortIPV6 }}</li>
-                          <li><strong>Porta do container IPV6:</strong> {{ fact.containerPortIPV6 }}</li>
-                        </ul> 
-                      </div>
-                    </v-card-text>
-
-                    <v-card-actions class="justify-end">
-                      <v-btn variant="text" @click="activeIndex = null">
-                        Fechar
-                      </v-btn>
-                    </v-card-actions>
-
-                  </v-card>
-                </template>
-              </v-dialog>
-            </td>
-          </tr>
-        </tbody>
-      </v-table>
-    </div>
-  </div>
-</div>
-</template> -->
-
-
 <template>
   <div class="overlay">
     <div class="upper-div">
@@ -160,11 +79,17 @@ function filtrar() {
                   <v-btn variant="text"
                          class="ma-2 ml-auto d-flex justify-end mr-0"
                          @click="dialogVisible = true">
-                      Editar
-                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 32" fill="none" stroke="currentColor" 
-                         stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-activity ml-2 mt-2">
+                      Visualizar 
+                    <!-- simbolo do editar <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 32" 
+                      fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" 
+                      class="feather feather-activity ml-2 mt-2">
                       <polygon points="14 2 18 6 7 17 3 17 3 13 14 2"></polygon>
                       <line x1="3" y1="22" x2="21" y2="22"></line>
+                    </svg> -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 25 32" fill="none" stroke="currentColor" stroke-width="2" 
+                    stroke-linecap="round" stroke-linejoin="round" class="feather feather-activity ml-2 mt-2">
+                      <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                      <circle cx="12" cy="12" r="3"></circle>
                     </svg>
                   </v-btn>
                   
@@ -219,7 +144,7 @@ function filtrar() {
                               <template v-slot:default="{ isActive }">
                                 <v-card value="rounded-xl">
                                   <v-toolbar class="custom-title text-h6" color="#0000CD">
-                                    <span>Editar: <strong>{{ fact.names }}</strong></span>
+                                    <span>Visualizar: <strong>{{ fact.names }}</strong></span>
                                   </v-toolbar>
 
                                   <v-card-text>
