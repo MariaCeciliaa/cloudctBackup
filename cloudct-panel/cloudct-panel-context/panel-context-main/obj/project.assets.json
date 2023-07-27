@@ -8,7 +8,7 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Cecilia Acadêmico\\.nuget\\packages\\": {}
+    "C:\\Users\\maria\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -16,11 +16,11 @@
       "projectUniqueName": "C:\\repository\\cloudct-panel\\cloudct-panel-context\\panel-context-main\\panel-context-main.csproj",
       "projectName": "panel-context-main",
       "projectPath": "C:\\repository\\cloudct-panel\\cloudct-panel-context\\panel-context-main\\panel-context-main.csproj",
-      "packagesPath": "C:\\Users\\Cecilia Acadêmico\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\maria\\.nuget\\packages\\",
       "outputPath": "C:\\repository\\cloudct-panel\\cloudct-panel-context\\panel-context-main\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Cecilia Acadêmico\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\maria\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

@@ -132,7 +132,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Cecilia Acadêmico\\.nuget\\packages\\": {}
+    "C:\\Users\\maria\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -140,11 +140,11 @@
       "projectUniqueName": "C:\\repository\\cloudct-panel\\cloudct-panel-services\\panel-services-core\\panel-services-core.csproj",
       "projectName": "panel-services-core",
       "projectPath": "C:\\repository\\cloudct-panel\\cloudct-panel-services\\panel-services-core\\panel-services-core.csproj",
-      "packagesPath": "C:\\Users\\Cecilia Acadêmico\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\maria\\.nuget\\packages\\",
       "outputPath": "C:\\repository\\cloudct-panel\\cloudct-panel-services\\panel-services-core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Cecilia Acadêmico\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\maria\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

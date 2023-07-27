@@ -1,13 +1,13 @@
 using System.Text.RegularExpressions;
-using Renci.SshNet;
+//using Renci.SshNet;
 
 namespace panel_context_customer.Models
 {
-    public class Service //classe container no diagrama de classe
+    public class Service 
     {
             public Service(string line)
             {
-                //Classe Regex para dividir a linha com base em um padrão 
+                //classe Regex para dividir a linha com base em um padrão 
                 //de espaços em branco consecutivos (\s{2,}). Essa expressão regular considera 
                 //dois ou mais espaços em branco consecutivos como o separador entre as colunas.
 

@@ -26,7 +26,8 @@ namespace panel_services_core.Services
             * retornando uma lista d containers 
             */
             
-            var privateKey = new PrivateKeyFile(@"C:\Users\Cecilia Acadêmico\Downloads\puttyKeyOpenSSH");
+            //var privateKey = new PrivateKeyFile(@"C:\Users\Cecilia Acadêmico\Downloads\puttyKeyOpenSSH");
+            var privateKey = new PrivateKeyFile(@"C:\Users\maria\Downloads\puttyKeyOpenSSH");
                 var client = new SshClient("18.230.31.13", 22, "ubuntu", privateKey);
                 client.Connect();
                 var command = "sudo docker ps -a";
